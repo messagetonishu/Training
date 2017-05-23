@@ -10,7 +10,7 @@ app.get('/welcome', function (req, res) {
   res.send("Welcome to nodeJS");
 })
 
-app.get('/about', function(req,req){
+app.get('/about', function(req, res){
 	res.send("this is Project Base Traing");
 })
 
